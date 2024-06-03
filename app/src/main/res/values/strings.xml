@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">frutas</string>
+
+    <string name="fruit_manzana_name">Manzana</string>
+    <string name="fruit_manzana_desc">Roja y deliciosa</string>
+    <string name="fruit_banana_name">Banana</string>
+    <string name="fruit_banana_desc">Amarilla y dulce</string>
+    <string name="fruit_naranja_name">Naranja</string>
+    <string name="fruit_naranja_desc">Jugosa y rica en vitamina C</string>
+    <string name="fruit_fresa_name">Fresa</string>
+    <string name="fruit_fresa_desc">Pequeña y jugosa</string>
+    <string name="fruit_uva_name">Uva</string>
+    <string name="fruit_uva_desc">Perfecta para el vino</string>
 </resources>

@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         totalPriceTextView = findViewById(R.id.totalPrice);
         ListView fruitListView = findViewById(R.id.fruitListView);
 
-        //  lista de frutas
+        // Inicializar la lista de frutas
         fruits = new ArrayList<>();
-        fruits.add(new fruit("Manzana", "Roja y deliciosa", 1.50, R.drawable.manzana));
-        fruits.add(new fruit("Banana", "Amarilla y dulce", 0.75, R.drawable.banana));
-        fruits.add(new fruit("Naranja", "Jugosa y rica en vitamina C", 1.25, R.drawable.naranja));
-        fruits.add(new fruit("Fresa", "Pequeña y jugosa", 2.00, R.drawable.fresa));
-        fruits.add(new fruit("Uva", "Perfecta para el vino", 3.00, R.drawable.uva));
+        fruits.add(new fruit(getString(R.string.fruit_manzana_name), getString(R.string.fruit_manzana_desc), 1.50, R.drawable.manzana));
+        fruits.add(new fruit(getString(R.string.fruit_banana_name), getString(R.string.fruit_banana_desc), 0.75, R.drawable.banana));
+        fruits.add(new fruit(getString(R.string.fruit_naranja_name), getString(R.string.fruit_naranja_desc), 1.25, R.drawable.naranja));
+        fruits.add(new fruit(getString(R.string.fruit_fresa_name), getString(R.string.fruit_fresa_desc), 2.00, R.drawable.fresa));
+        fruits.add(new fruit(getString(R.string.fruit_uva_name), getString(R.string.fruit_uva_desc), 3.00, R.drawable.uva));
 
         FruitAdapter adapter = new FruitAdapter(this, fruits);
         fruitListView.setAdapter(adapter);
